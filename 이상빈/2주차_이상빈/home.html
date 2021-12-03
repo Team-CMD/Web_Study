@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <div id="main">
+        <div id="main_image">
+            <img src="https://cdn.discordapp.com/attachments/891654066181132339/907920390884569129/home.png" alt="" width="256" height="160">
+        </div>
+        <ul id="link_list">
+            <li id="selected" class="link_item">
+                <a href="./home.html">Home</a>
+            </li>
+            <li class="link_item">
+                <a href="./seoul.html">Seoul</a>
+            </li>
+            <li class="link_item">
+                <a href="./tokyo.html">Tokyo</a>
+            </li>
+            <li class="link_item">
+                <a href="./paris.html">Paris</a>
+            </li>
+        </ul>
+        <div id="image_wrapper">
+            <img src="https://cdn.discordapp.com/attachments/891654066181132339/907920414095863808/logo.png" alt="" width="100%">
+        </div>
+    </div>
+    <style>
+        #main{
+            margin:0 auto;
+        }
+        #main_image{
+            width:256px;
+            height:160px;
+            margin:0 auto;
+            margin-top:90px;
+            margin-bottom:70px;
+        }
+        ul{
+            list-style:none;
+            overflow:hidden;
+            padding:0;
+            text-align:center;
+            margin-bottom:70px;
+        }
+        .link_item{
+            display:inline-block;
+            margin-right:20px;
+        }
+        .link_item:last-child{
+            margin-right:0px;
+        }
+        .link_item a{
+            font-size:20px;
+            text-decoration:none;
+            color:grey;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight:bold;
+        }
+        #selected a{
+            color:black;
+        }
+        .link_item a:hover{
+            color:black;
+        }
+        #image_wrapper{
+            width:90%;
+            margin:0 auto;
+        }
+    </style>
+</body>
+</html>

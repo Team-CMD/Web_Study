@@ -1,0 +1,45 @@
+.img1{
+    display: block;
+    float: left;
+    margin-right: 2700px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img3{
+    display: block;
+    float: left;
+    margin-left: -70px;
+}
+#main{
+    margin-bottom: 50px;
+}
+#main p{
+    display: inline-block;
+    text-align: right;
+    word-spacing: 40px;
+    font-family: Noto Sans CJK KR;
+    font-size: 24px;
+    color: #381100;
+}
+#text1{
+    text-align: left;
+}
+#text2 h1{
+    display: block;
+    font-size: 107pt;
+    font-family: Lora;
+    padding-top: 150px;
+    margin-bottom: 0;
+}
+#text2 p{
+    display: inline-block;
+    text-align: left;
+    width: 700px;
+    vertical-align: top;
+    margin-left: -270px;
+}
